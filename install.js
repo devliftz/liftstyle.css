@@ -7,4 +7,4 @@ document.head.appendChild(link);
 const template = document.createElement('script');
 template.src = "https://getlifted.icey.fr/scripts/index.js";
     
-document.body.appendChild(template);
+document.body.createElement(template);
