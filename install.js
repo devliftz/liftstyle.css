@@ -6,4 +6,4 @@ var script = document.createElement('script');
 script.src = 'https://getlifted.icey.fr/scripts/index.js'
 
 document.head.appendChild(link);
-document.body.appendChild(script)
+document.body.appendChild(script);
