@@ -4,13 +4,13 @@ html {
   background-color: #212121;
 }
 
-.game-container-wrapper {
+.lift-container-wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 20px;
 }
 
-.game-container {
+.lift-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,20 +20,20 @@ html {
   cursor: pointer;
 }
 
-.game-icon {
+.lift-img {
   width: 150px;
   height: 150px;
   border-radius: 25%;
 }
 
-.game-name {
+.lift-text {
   font-size: 24px;
   margin: 0;
   margin-top: 20px;
   color: #ffffff;
 }
 
-.game-description {
+.lift-short-desc {
   font-size: 16px;
   margin: 0;
   margin-top: 10px;
@@ -49,7 +49,7 @@ a:hover {
   text-decoration: underline;
 }
 
-.game-icon:hover {
+.lift-img:hover {
   box-shadow: 0 0 20px 5px whitesmoke;
   transition: transform ease 0.5s, box-shadow ease 0.5s;
 }
@@ -64,20 +64,20 @@ a:hover {
   cursor: pointer; /* change the cursor style when hovering over the button */
 }
 
-.game-description-page {
+.lift-description-page {
   font-size:18px;
   margin: 0;
   margin-top: 10px;
   color: #ebebeb;
 }
 
-.game-icon-page {
+.lift-icon-page {
   width: 135px;
   height: 135px;
   border-radius: 25%;
 }
 
-.game-icon-page:hover {
+.lift-icon-page:hover {
   box-shadow: 0 0 20px 5px whitesmoke;
   transition: transform ease 0.5s, box-shadow ease 0.5s;
 }
@@ -105,7 +105,7 @@ header {
   font-weight: bold;
 }
 
-.game-container-wrapper {
+.lift-container-wrapper {
   /* Existing styles for game container wrapper */
   margin-top: 25px; /* Change this value according to the height of your header */
 }
